@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ADF0EBF1-7F75-4CA8-B317-EED0FDDF7A90}</ProjectGuid>
+    <ProjectGuid>{B8D8EB11-47CE-4D2B-BCA0-C7F1BBE647AB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EdgeDeflector</RootNamespace>
-    <AssemblyName>EdgeDeflector</AssemblyName>
+    <RootNamespace>EdgeDeflectorInstaller</RootNamespace>
+    <AssemblyName>EdgeDeflectorInstaller</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,14 +31,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup />
   <PropertyGroup>
-    <NoWin32Manifest>true</NoWin32Manifest>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,6 +50,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EdgeDeflector\EdgeDeflector.csproj">
+      <Project>{adf0ebf1-7f75-4ca8-b317-eed0fddf7a90}</Project>
+      <Name>EdgeDeflector</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

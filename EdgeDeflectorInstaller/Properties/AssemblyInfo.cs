@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("EdgeDeflector")]
-[assembly: AssemblyDescription("Rewrites microsoft-edge URI addresses into standard http URI addresses.")]
+[assembly: AssemblyTitle("EdgeBypassInstaller")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("EdgeDeflector")]
-[assembly: AssemblyCopyright("Copyright © 2017")]
+[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyProduct("EdgeBypassInstaller")]
+[assembly: AssemblyCopyright("Copyright © Microsoft 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,17 +20,17 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("adf0ebf1-7f75-4ca8-b317-eed0fddf7a90")]
+[assembly: Guid("b8d8eb11-47ce-4d2b-bca0-c7f1bbe647ab")]
 
 // Version information for an assembly consists of the following four values:
 //
 //      Major Version
 //      Minor Version
-//      Maintenance Number
 //      Build Number
+//      Revision
 //
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.1.3.0")]
-[assembly: AssemblyFileVersion("1.1.3.0")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
